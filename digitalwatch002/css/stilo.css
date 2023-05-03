@@ -1,0 +1,39 @@
+*{
+font-family: 'Courier New', Courier, monospace;
+padding: 0;
+margin: 0;
+}
+
+body{
+    background: linear-gradient(rgba(226, 226, 21, 0.911), rgb(41, 131, 167));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Relogio{
+    padding: 110px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(8, 8, 0, 0.26);
+    border-radius:100%;
+    font-size: 40px;
+    color: white;
+}
+.numeros{
+    display: flex;
+}
+.numeros .tempo{
+    letter-spacing: 10px;
+}
+.Data{
+    display: flex;
+    margin-top: 20px;
+}
+.Data #barra{
+    letter-spacing: 50px;
+}
